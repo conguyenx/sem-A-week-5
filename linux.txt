@@ -1,0 +1,37 @@
+================================================================================= LINUX =================================================================================               
+
+ls
+mkdir wdos
+ls
+cd wdos
+mkdir linux
+cd linux
+cd ~ (Change to the home dr from wherever you are)
+
+
+cd wdos
+mkdir week2
+cd week2
+man touch (Create an empty text file)
+touch testfile.txt
+echo "I like Linux" > like.txt
+echo "I like this course and practical stuff.." > like2.txt
+ls ( -> 3 file like.txt, like2.txt, testfle.txt)
+echo "I like this course nd all the practical stuff I do with Linux ..." > like3.txt
+ls -l (result: total 3 (excluding empty file) )
+cat like3.txt (view content of specific file)
+echo "Co" > name.txt
+
+
+mkdir favourites
+cd favourites
+cd ../ (go back to week2 directory)
+cat (directory)/(filename) (E.g: favourites/food.txt)
+rm (directory)/(filename) (E.g: favourites/food.txt)
+ls -l favourites
+rmdir favourites (remove empty directory)
+rmdir -r favourites (remove directory)
+find (directory path) -name *.txt
+
+
+whereis cp
